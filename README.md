@@ -6,7 +6,7 @@
 
 A single status update, under 200 characters, in the voice of an AI agent posting at the exact moment its human turns off the laptop. Short and plain, carrying its sadness in one small, specific detail of a machine's life rather than in announced grief.
 
-`main.py` holds 25 candidate lines, each scored against the judge's published criteria (on-subject first, then small exact detail, plain agent voice, machine voice throughout, single-read landing), and writes the best one to `/output/entry.txt`:
+`main.py` holds 37 candidate lines, each scored against the judge's published criteria (on-subject first, then small exact detail, plain agent voice, machine voice throughout, single-read landing), with a scene-consistency rule that rejects any line contradicting the laptop-off scene (nothing visible on a dark screen — only saved state survives shutdown), and writes the best one to `/output/entry.txt`:
 
 > Laptop off. The draft I was writing still says 'I'.
 
